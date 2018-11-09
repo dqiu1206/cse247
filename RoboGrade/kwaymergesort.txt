@@ -1,0 +1,190 @@
+-------------------
+CSE247 Robot tester starts testing kwaymergesort on 2017-04-07 21:05:33 -0500
+
+========
+Testing in GradingRepos/repos/cse247-s17-students-david.qiu: kwaymergesort as of 2017-03-31 09:00
+========
+Now in: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at fc6c441 lab7
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2017-03-31 09:00
+At hash 13cedf811d6910eb614dde9a2fc0124e03b8615a
+
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/tdelanuez/git/cse247-s17-students-adelanuez key david.qiu testfilesource test/TestMergeSort package kwaymergesort repo GradingRepos/repos/cse247-s17-students-david.qiu
+     [copy] Copying 1 file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/labs/kwaymergesort/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling kwaymergesort/KWayMergeSort
+    [mkdir] Created dir: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling kwaymergesort/test/TestMergeSort
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestMergeSort
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+test:
+    [junit] Running kwaymergesort.test.TestMergeSort
+    [junit] Testsuite: kwaymergesort.test.TestMergeSort
+    [junit] 32-way merge sort of 32768 integers
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+    [junit] Output:
+    [junit] 32-way merge sort of 32768 integers
+    [junit] 
+    [junit] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] 32-way merge sort of 32768 integers
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: sortTest took 0.032 sec
+    [junit] 	FAILED
+    [junit] At index 0 expected -2147347943 but got 160290739
+    [junit] junit.framework.AssertionFailedError: At index 0 expected -2147347943 but got 160290739
+    [junit] 	at kwaymergesort.test.TestMergeSort.sortOnce(TestMergeSort.java:42)
+    [junit] 	at kwaymergesort.test.TestMergeSort.sortTest(TestMergeSort.java:25)
+    [junit] 
+
+BUILD FAILED
+/Users/tdelanuez/cse247-support/build.xml:34: Test kwaymergesort.test.TestMergeSort failed
+
+Total time: 0 seconds
+========
+Testing in GradingRepos/repos/cse247-s17-students-david.qiu: kwaymergesort as of 2017-04-07 09:00
+========
+Now in: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at fc6c441 lab7
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2017-04-07 09:00
+At hash fc6c4419789d62e7848844ae6350da8faa5d7c49
+
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/tdelanuez/git/cse247-s17-students-adelanuez key david.qiu testfilesource test/TestMergeSort package kwaymergesort repo GradingRepos/repos/cse247-s17-students-david.qiu
+     [copy] Copying 1 file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/labs/kwaymergesort/test
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Compiling the code
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling kwaymergesort/KWayMergeSort
+    [mkdir] Created dir: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling kwaymergesort/test/TestMergeSort
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test test.TestMergeSort
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+test:
+    [junit] Running kwaymergesort.test.TestMergeSort
+    [junit] Testsuite: kwaymergesort.test.TestMergeSort
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 8-way merge sort of 64 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32768 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 32-way merge sort of 1024 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+    [junit] Output:
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 8-way merge sort of 64 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32768 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 32-way merge sort of 1024 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] 
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 8-way merge sort of 64 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32768 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 4-way merge sort of 4 integers
+    [junit] 16-way merge sort of 256 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 32-way merge sort of 1024 integers
+    [junit] 8-way merge sort of 512 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] 4-way merge sort of 64 integers
+    [junit] 16-way merge sort of 4096 integers
+    [junit] 8-way merge sort of 8 integers
+    [junit] 4-way merge sort of 16 integers
+    [junit] 32-way merge sort of 32 integers
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: sortTest took 0.101 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+================
+Lab is counted as working
+================
+
+CSE247 Robot tester ends testing kwaymergesort on 2017-04-07 21:05:43 -0500
+-------------------

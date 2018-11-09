@@ -1,0 +1,121 @@
+-------------------
+CSE247 Robot tester starts testing dh on 2017-05-05 12:48:42 -0500
+
+========
+Testing in GradingRepos/repos/cse247-s17-students-david.qiu: dh as of 2017-04-28 09:00
+========
+Now in: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at ced2b9a propagate from song.tianyi of studios/studio12/BreakCaesar.java
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2017-04-28 09:00
+At hash ced2b9aa442ef13bf1e70010e6069cd6851fe62c
+
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/tdelanuez/git/cse247-s17-students-adelanuez key david.qiu testfilesource testing/TestDH package dh repo GradingRepos/repos/cse247-s17-students-david.qiu
+Compiling the code
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling dh/DH
+    [mkdir] Created dir: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling dh/testing/TestDH
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test testing.TestDH
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+test:
+    [junit] Running dh.testing.TestDH
+    [junit] Testsuite: dh.testing.TestDH
+    [junit] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] 
+    [junit] Testcase: testPubKeys took 0.003 sec
+    [junit] 	FAILED
+    [junit] For private key 376752573 incorrect computation of public key expected:<1089816305> but was:<31040197>
+    [junit] junit.framework.AssertionFailedError: For private key 376752573 incorrect computation of public key expected:<1089816305> but was:<31040197>
+    [junit] 	at dh.testing.TestDH.testPubKeys(TestDH.java:34)
+    [junit] 
+    [junit] Testcase: testLectureExample took 0.001 sec
+    [junit] Testcase: testAgreement took 0.005 sec
+
+BUILD FAILED
+/Users/tdelanuez/cse247-support/build.xml:34: Test dh.testing.TestDH failed
+
+Total time: 0 seconds
+========
+Testing in GradingRepos/repos/cse247-s17-students-david.qiu: dh as of 2017-05-05 09:00
+========
+Now in: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu
+Your branch is up-to-date with 'origin/master'.
+HEAD is now at ced2b9a propagate from song.tianyi of studios/studio12/BreakCaesar.java
+No local changes to save
+
+Already up-to-date.
+Going back in time to: 2017-05-05 09:00
+At hash ced2b9aa442ef13bf1e70010e6069cd6851fe62c
+
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+copytest:
+     [echo] would copy from /Users/tdelanuez/git/cse247-s17-students-adelanuez key david.qiu testfilesource testing/TestDH package dh repo GradingRepos/repos/cse247-s17-students-david.qiu
+Compiling the code
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling dh/DH
+    [mkdir] Created dir: /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+compile:
+     [echo] Compiling dh/testing/TestDH
+    [javac] Compiling 1 source file to /Users/tdelanuez/cse247-support/GradingRepos/repos/cse247-s17-students-david.qiu/bin
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Running test testing.TestDH
+Buildfile: /Users/tdelanuez/cse247-support/build.xml
+
+test:
+    [junit] Running dh.testing.TestDH
+    [junit] Testsuite: dh.testing.TestDH
+    [junit] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+    [junit] 
+    [junit] Testcase: testPubKeys took 0.002 sec
+    [junit] 	FAILED
+    [junit] For private key 376752573 incorrect computation of public key expected:<1089816305> but was:<31040197>
+    [junit] junit.framework.AssertionFailedError: For private key 376752573 incorrect computation of public key expected:<1089816305> but was:<31040197>
+    [junit] 	at dh.testing.TestDH.testPubKeys(TestDH.java:34)
+    [junit] 
+    [junit] Testcase: testLectureExample took 0 sec
+    [junit] Testcase: testAgreement took 0.006 sec
+
+BUILD FAILED
+/Users/tdelanuez/cse247-support/build.xml:34: Test dh.testing.TestDH failed
+
+Total time: 0 seconds
+================
+Lab is not counted -- failed unit tests
+================
+
+CSE247 Robot tester ends testing dh on 2017-05-05 12:48:52 -0500
+-------------------
